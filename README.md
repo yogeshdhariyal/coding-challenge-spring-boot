@@ -90,7 +90,7 @@ http://localhost:8080/api/v1/swagger-ui/index.html
 **Example Request:**
 
 ```http
-GET /repositories/scores?language=Kotlin&createdAfter=2025-09-01
+GET /repositories/scores?language=Java&createdAfter=2025-09-01
 ```
 
 **Example Response:**
