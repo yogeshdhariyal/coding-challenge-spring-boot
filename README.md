@@ -147,7 +147,7 @@ freshness = 1 / (1 + days_since_last_update)
 ## Notes
 
 - Only **ISO date format (`yyyy-MM-dd`)** is supported for `createdAfter`.
-- If the language is invalid or no repositories match, an empty list is returned.
+- github doesn't support free text so if nothing matches it takes latest results based on other filters.
 - Score calculation is handled in the `AlgorithmUtil` class for maintainability.
 - The API returns up to **50 repositories per request**.
 
